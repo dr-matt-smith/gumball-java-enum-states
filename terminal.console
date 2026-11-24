@@ -1,0 +1,7 @@
+[session]
+type = "shell"
+
+[[session.shortcut]]
+label = "RUN: compile and start the gumball machine menu (src/Main.java)"
+icon = "bs-play-fill"
+text = "javac -d out src/*.java && java -cp out Main"
